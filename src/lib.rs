@@ -123,6 +123,10 @@ pub use core::prelude::rust_2021::{
     derive
 };
 
+pub use core::prelude::rust_2018::{
+    llvm_asm
+};
+
 /* } */
 
 // Re-export uefi and uefi_alloc
