@@ -9,6 +9,7 @@
 #![feature(slice_concat_ext)]
 #![feature(test)]
 #![feature(trace_macros)]
+#![feature(llvm_asm)]
 
 /* This section was addapted from the Rust Standard Library, and is licensed accordingly
  * https://github.com/rust-lang/rust/blob/master/src/libstd/lib.rs
