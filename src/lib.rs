@@ -118,6 +118,11 @@ pub use core::prelude::v1::{
     trace_macros,
 };
 
+// Re-export macros from Rust 2021 edition
+pub use core::prelude::rust_2021{
+    derive
+}
+
 /* } */
 
 // Re-export uefi and uefi_alloc
